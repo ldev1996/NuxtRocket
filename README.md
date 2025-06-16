@@ -14,9 +14,34 @@ Template base para acelerar o setup de projetos Nuxt 3, com boas práticas e fer
 
 ## 🛠️ Setup
 
+Escolha seu gerenciador de pacotes preferido:
+
+### Usando **npm**
+
+```bash
+npm install
+npm run dev
+```
+
+### Usando **pnpm**
+
 ```bash
 pnpm install
 pnpm dev
+```
+
+### Usando **yarn**
+
+```bash
+yarn install
+yarn dev
+```
+
+### Usando **bun**
+
+```bash
+bun install
+bun dev
 ```
 
 ---
