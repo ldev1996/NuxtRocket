@@ -7,6 +7,7 @@ Template base para acelerar o setup de projetos Nuxt 3, com boas práticas e fer
 ## ✅ Tecnologias e Ferramentas
 
 -   [Nuxt 3](https://nuxt.com)
+-   [TailwindCSS](https://tailwindcss.com)
 -   Code Spell Checker (VSCode)
 
 ---
