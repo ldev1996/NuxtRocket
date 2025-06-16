@@ -43,7 +43,12 @@ Renomeie a pasta `.cspell.example` para `.cspell` para listar palavras específi
 
 ## 📌 TODO
 
--   [ ] Adicionar TailwindCSS
+-   [x] Adicionar TailwindCSS
+-   [ ] Estado global (store)
+-   [ ] Composables úteis
+-   [ ] Componentes básicos
+-   [ ] Suporte a modo escuro
+-   [ ] Suporte a internacionalização
 
 ---
 
