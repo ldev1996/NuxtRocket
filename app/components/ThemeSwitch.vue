@@ -5,13 +5,18 @@
             v-model="colorMode.preference"
             class="bg-base border rounded p-1"
         >
-            <option value="system">System</option>
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
+            <option
+                v-for="theme in appConfig.themes"
+                :key="theme.label"
+                :value="theme.value"
+            >
+                {{ theme.label }}
+            </option>
         </select>
     </label>
 </template>
 
-<script setup lang="ts">
+<script setup lang="js">
     const colorMode = useColorMode()
+    const appConfig = useNuxtApp().$appConfig
 </script>

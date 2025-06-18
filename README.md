@@ -11,6 +11,7 @@ Template base para acelerar o setup de projetos Nuxt 3, com boas práticas e fer
 -   🗃️ [Pinia](https://pinia.vuejs.org)
 -   🧃 [Vue Rewards](https://vuejsexamples.com/add-micro-interactions-to-your-app-and-rewards-users-with-the-rain-of-confetti-emoji-or-balloons)
 -   🌗 [Nuxt Color Mode](https://color-mode.nuxtjs.org)
+-   ⚙️ Configuração Global Simplificada
 -   ✍️ Code Spell Checker (VSCode)
 
 ---
