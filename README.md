@@ -54,20 +54,7 @@ bun dev
 
 Este projeto inclui suporte à extensão **Code Spell Checker** do VSCode.
 
-### Adicione isto ao seu `settings.json`:
-
-```json
-"cSpell.customDictionaries": {
-  "project": {
-    "name": "project",
-    "path": "./.cspell/words.txt",
-    "addWords": true,
-    "scope": "workspace"
-  }
-}
-```
-
-Renomeie a pasta `.cspell.example` para `.cspell` para listar palavras específicas do projeto.
+Renomeie a pasta `.vscode.example` para `.vscode` e já pode começar a listar palavras específicas do projeto wm `words.txt`!
 
 ---
 

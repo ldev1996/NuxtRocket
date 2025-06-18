@@ -1,4 +1,3 @@
-# Stack
 nuxt
 nuxtjs
 vue
