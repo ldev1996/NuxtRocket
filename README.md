@@ -6,9 +6,10 @@ Template base para acelerar o setup de projetos Nuxt 3, com boas práticas e fer
 
 ## ✅ Tecnologias e Ferramentas
 
--   [Nuxt 3](https://nuxt.com)
--   [TailwindCSS](https://tailwindcss.com)
--   Code Spell Checker (VSCode)
+-   🧬 [Nuxt 3](https://nuxt.com)
+-   ✨ [TailwindCSS 4](https://tailwindcss.com)
+-   🗃️ [Pinia](https://pinia.vuejs.org)
+-   ✍️ Code Spell Checker (VSCode)
 
 ---
 
@@ -69,12 +70,21 @@ Renomeie a pasta `.cspell.example` para `.cspell` para listar palavras específi
 
 ## 📌 TODO
 
--   [x] Adicionar TailwindCSS
--   [ ] Estado global (store)
--   [ ] Composables úteis
--   [ ] Componentes básicos
--   [ ] Suporte a modo escuro
--   [ ] Suporte a internacionalização
+### SETUP
+
+-   [x] ✨ Adicionar TailwindCSS
+-   [x] 🗃️ Estado global (store)
+-   [ ] 🧩 Composables úteis
+-   [ ] 🧱 Componentes básicos
+-   [ ] 🌙 Suporte a modo escuro
+-   [ ] 🌐 Suporte a internacionalização
+-   [ ] 🧃 "Suco"
+-   [ ] 🔍 SEO
+
+### MELHORIAS
+
+-   [ ] Cores de tema (primary, background...)
+-   [ ] Stores padrão
 
 ---
 
