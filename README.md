@@ -9,6 +9,7 @@ Template base para acelerar o setup de projetos Nuxt 3, com boas práticas e fer
 -   🧬 [Nuxt 3](https://nuxt.com)
 -   ✨ [TailwindCSS 4](https://tailwindcss.com)
 -   🗃️ [Pinia](https://pinia.vuejs.org)
+-   🧃 [Vue Rewards](https://vuejsexamples.com/add-micro-interactions-to-your-app-and-rewards-users-with-the-rain-of-confetti-emoji-or-balloons)
 -   ✍️ Code Spell Checker (VSCode)
 
 ---
@@ -78,7 +79,7 @@ Renomeie a pasta `.cspell.example` para `.cspell` para listar palavras específi
 -   [ ] 🧱 Componentes básicos
 -   [ ] 🌙 Suporte a modo escuro
 -   [ ] 🌐 Suporte a internacionalização
--   [ ] 🧃 "Suco"
+-   [x] 🧃 "Suco"
 -   [ ] 🔍 SEO
 
 ### MELHORIAS
