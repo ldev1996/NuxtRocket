@@ -54,7 +54,7 @@ bun dev
 
 Este projeto inclui suporte à extensão **Code Spell Checker** do VSCode.
 
-Renomeie a pasta `.vscode.example` para `.vscode` e já pode começar a listar palavras específicas do projeto wm `words.txt`!
+Renomeie a pasta `.vscode.example` para `.vscode` e já pode começar a listar palavras específicas do projeto em `words.txt`!
 
 ---
 
