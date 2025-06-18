@@ -4,3 +4,4 @@ nuxtjs
 vue
 vueuse
 pinia
+oklch

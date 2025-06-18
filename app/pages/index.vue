@@ -1,12 +1,17 @@
 <template>
-    <div class="w-full h-dvh flex items-center justify-center">
-        <button
-            @click="confettiReward"
-            id="confetti-btn"
-            class="bg-blue-400 hover:bg-blue-500 p-2 rounded cursor-pointer"
+    <div class="w-full h-dvh flex items-center justify-center bg-base">
+        <div
+            class="flex items-center justify-center gap-2 p-4 bg-surface rounded-xl"
         >
-            Let's Party!
-        </button>
+            <ThemeSwitch />
+            <button
+                @click="confettiReward"
+                id="confetti-btn"
+                class="bg-primary hover:bg-primary-alt p-2 rounded cursor-pointer transition-colors"
+            >
+                Let's Party!
+            </button>
+        </div>
     </div>
 </template>
 

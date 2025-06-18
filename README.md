@@ -10,6 +10,7 @@ Template base para acelerar o setup de projetos Nuxt 3, com boas práticas e fer
 -   ✨ [TailwindCSS 4](https://tailwindcss.com)
 -   🗃️ [Pinia](https://pinia.vuejs.org)
 -   🧃 [Vue Rewards](https://vuejsexamples.com/add-micro-interactions-to-your-app-and-rewards-users-with-the-rain-of-confetti-emoji-or-balloons)
+-   🌗 [Nuxt Color Mode](https://color-mode.nuxtjs.org)
 -   ✍️ Code Spell Checker (VSCode)
 
 ---
@@ -77,14 +78,14 @@ Renomeie a pasta `.cspell.example` para `.cspell` para listar palavras específi
 -   [x] 🗃️ Estado global (store)
 -   [ ] 🧩 Composables úteis
 -   [ ] 🧱 Componentes básicos
--   [ ] 🌙 Suporte a modo escuro
+-   [x] 🌙 Suporte a modo escuro
 -   [ ] 🌐 Suporte a internacionalização
 -   [x] 🧃 "Suco"
 -   [ ] 🔍 SEO
 
 ### MELHORIAS
 
--   [ ] Cores de tema (primary, background...)
+-   [x] Cores de tema (primary, background...)
 -   [ ] Stores padrão
 
 ---
