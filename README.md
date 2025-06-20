@@ -70,27 +70,28 @@ bun install
 
 3.  Altere as cores em `app/assets/css/main.css` para condizerem com as cores do tema do seu projeto.
 
-## ✍️ Code Spell Checker
-
-Este projeto inclui suporte à extensão **Code Spell Checker** do VSCode. Para que seu projeto não vá para o ar com error ortográficos, basta instalar a extensão e, se precisar, começar a listar palavras específicas do projeto em `words.txt`!
+4.  Se você usa a extensão **Code Spell Checker**, palavras específicas do projeto podem ser adicionadas em `.vscode/words.txt`
 
 ## 📌 TODO
 
-### SETUP
+### Principal
 
 -   [x] ✨ Adicionar TailwindCSS
 -   [x] 🗃️ Adicionar estado global (store)
 -   [ ] 🧩 Composables úteis
--   [ ] 🧱 Componentes básicos
+-   [ ] 🧱 Componentes globais básicos
 -   [x] 🌙 Suporte a modo escuro
--   [ ] 🌐 Suporte a internacionalização
--   [x] 🧃 "Suco"
--   [ ] 🔍 SEO
+-   [ ] 🌐 Suporte a internacionalização (i18n)
+-   [x] 🧃 "Suco" com Vue Rewards
+-   [ ] 🔍 SEO básico
+-   [ ] 🔐 Sistema de autenticação base
 
-### MELHORIAS
+### Extras
 
--   [x] Cores de tema (primary, background...)
--   [ ] Stores padrão
+-   [x] 🌈 Cores de tema (`primary`, `background`)
+-   [ ] 🗃️ Stores padrão (`ui`, `settings`)
+-   [ ] 🧹 Linter + Formatter
+-   [ ] 📱 Suporte a PWA
 
 ---
 
