@@ -22,20 +22,21 @@ O foco vai além do técnico — acessibilidade e boas práticas de UX são prio
 
 ### 📦 Core
 
--   🧬 [Nuxt 3](https://nuxt.com)
--   ✨ [TailwindCSS 4](https://tailwindcss.com)
--   🗃️ [Pinia](https://pinia.vuejs.org)
--   🌗 [Nuxt Color Mode](https://color-mode.nuxtjs.org)
+-   🧬 Componentização e SSR com [Nuxt 3](https://nuxt.com)
+-   ✨ Classes utilitárias com [TailwindCSS 4](https://tailwindcss.com)
+-   🗃️ Gerenciamento de estado global com [Pinia](https://pinia.vuejs.org)
+-   🌗 Modos claro e escuro com [Nuxt Color Mode](https://color-mode.nuxtjs.org)
+-   🖼️ Ícones fáceis com [Nuxt Icon](https://nuxt.com/modules/icon)
 -   ⚙️ Configuração global simplificada em `app.config.js`
 
 ### 🌈 UI e Experiência
 
--   🧃 [Vue Rewards](https://vuejsexamples.com/add-micro-interactions-to-your-app-and-rewards-users-with-the-rain-of-confetti-emoji-or-balloons)
+-   🧃 Design emocional (ou "suco") com [Vue Rewards](https://vuejsexamples.com/add-micro-interactions-to-your-app-and-rewards-users-with-the-rain-of-confetti-emoji-or-balloons)
 -   🎨 Cores de tema customizáveis (primary, background, etc.)
 
 ### 🛠️ Dev Experience
 
--   ✍️ [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+-   ✍️ Corretor ortográfico com [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 -   ⚙️ `.vscode/settings.json` com padrões de equipe
 
 ## 🛠️ Setup
@@ -85,7 +86,7 @@ bun install
 -   [x] 🧃 "Suco" com Vue Rewards
 -   [ ] 🔍 SEO básico
 -   [ ] 🔐 Sistema de autenticação base
--   [ ] 🖼️ Ícones simplificados
+-   [x] 🖼️ Ícones simplificados
 
 ### Extras
 

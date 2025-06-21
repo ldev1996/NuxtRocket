@@ -14,4 +14,7 @@ export default defineAppConfig({
             label: 'Dark',
         },
     ],
+    icon: {
+        size: '24px',
+    },
 })
