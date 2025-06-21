@@ -3,7 +3,7 @@
         Theme
         <select
             v-model="colorMode.preference"
-            class="bg-base border rounded p-1"
+            class="bg-highlight rounded-lg p-1 cursor-pointer"
         >
             <option
                 v-for="theme in appConfig.themes"
