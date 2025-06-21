@@ -48,9 +48,9 @@
     --theme-primary-alt: oklch(62.3% 0.214 259.815);
 
     /* Neutral --------------------------------------- */
-    --theme-base: oklch(10% 0 0);
-    --theme-surface: oklch(15% 0 0);
-    --theme-highlight: oklch(20% 0 0);
+    --theme-base: oklch(15% 0 0);
+    --theme-surface: oklch(20% 0 0);
+    --theme-highlight: oklch(25% 0 0);
     --theme-foreground: oklch(95% 0 0);
     --theme-foreground-muted: oklch(70% 0 0);
 

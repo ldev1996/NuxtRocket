@@ -26,12 +26,12 @@ O foco vai além do técnico — acessibilidade e boas práticas de UX são prio
 -   ✨ [TailwindCSS 4](https://tailwindcss.com)
 -   🗃️ [Pinia](https://pinia.vuejs.org)
 -   🌗 [Nuxt Color Mode](https://color-mode.nuxtjs.org)
--   ⚙️ Configuração global simplificada em `config/app.config.js`
+-   ⚙️ Configuração global simplificada em `app.config.js`
 
-### 🎨 UI e Experiência
+### 🌈 UI e Experiência
 
 -   🧃 [Vue Rewards](https://vuejsexamples.com/add-micro-interactions-to-your-app-and-rewards-users-with-the-rain-of-confetti-emoji-or-balloons)
--   🌈 Cores de tema customizáveis (primary, background, etc.)
+-   🎨 Cores de tema customizáveis (primary, background, etc.)
 
 ### 🛠️ Dev Experience
 
@@ -66,9 +66,9 @@ yarn install
 bun install
 ```
 
-2.  Adicione as configurações do seu projeto em `config/app.config.js` — diversos componentes pré-configurados usam essas configurações, então você não precisa editar um por um caso queira mudar algo.
+2.  Configure seu projeto em `app.config.js` — diversos componentes prontos usam essas configurações, então você não precisa editar um por um caso queira mudar algo, é só trocar nesse arquivo.
 
-3.  Altere as cores em `app/assets/css/main.css` para condizerem com as cores do tema do seu projeto.
+3.  Altere as cores em `assets/css/main.css` para condizerem com as cores do tema do seu projeto.
 
 4.  Se você usa a extensão **Code Spell Checker**, palavras específicas do projeto podem ser adicionadas em `.vscode/words.txt`
 
@@ -85,10 +85,11 @@ bun install
 -   [x] 🧃 "Suco" com Vue Rewards
 -   [ ] 🔍 SEO básico
 -   [ ] 🔐 Sistema de autenticação base
+-   [ ] 🖼️ Ícones simplificados
 
 ### Extras
 
--   [x] 🌈 Cores de tema (`primary`, `background`)
+-   [x] 🎨 Cores de tema (`primary`, `background`)
 -   [ ] 🗃️ Stores padrão (`ui`, `settings`)
 -   [ ] 🧹 Linter + Formatter
 -   [ ] 📱 Suporte a PWA
