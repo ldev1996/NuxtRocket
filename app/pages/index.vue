@@ -9,8 +9,15 @@
                 class="text-foreground"
             />
             <div class="self-baseline">
-                <h1 class="text-foreground text-2xl">Lorem ipsum</h1>
-                <p class="text-foreground-muted">Lorem ipsum dolor sit.</p>
+                <h1 class="text-foreground text-2xl">Nuxt Rocket</h1>
+                <p class="text-foreground-muted">
+                    Edit this page in
+                    <span
+                        class="bg-primary text-foreground p-0.5 italic rounded-sm"
+                    >
+                        pages/index.vue
+                    </span>
+                </p>
             </div>
         </div>
         <div class="flex gap-2">
@@ -22,13 +29,11 @@
                 <Icon name="lucide:party-popper" />
                 Let's Party with Confetti!
             </button>
-            <button
-                @click="ballonReward"
-                id="ballon-btn"
-                class="bg-highlight border border-transparent hover:border-primary p-2 rounded-lg cursor-pointer transition-colors text-primary"
-            >
-                Let's Party with Balloons!
-            </button>
+            <Skeleton
+                w="10rem"
+                h="3rem"
+                r="rounded-md"
+            />
         </div>
         <ThemeSwitch />
     </div>
