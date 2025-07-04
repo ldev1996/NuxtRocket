@@ -1,100 +1,99 @@
 # 🚀 Nuxt Rocket
 
-**Nuxt Rocket** é um ponto de partida opinativo para projetos Nuxt 3 modernos.
+**Nuxt Rocket** is an opinionated starting point for modern Nuxt 3 projects.
 
-A proposta é simples: eliminar o setup repetitivo, padronizar o essencial e criar uma base sólida que valoriza performance, experiência do usuário e manutenção a longo prazo.
+The idea is simple: eliminate repetitive setup, standardize the essentials, and create a solid foundation focused on performance, user experience, and long-term maintainability.
 
-O foco vai além do técnico — acessibilidade e boas práticas de UX são prioridades desde o início. O projeto também valoriza o que os game designers chamam de **"suco"**: microinterações visuais e feedbacks instantâneos que fazem o usuário sentir que está usando algo bem feito.
+The focus goes beyond technical aspects — accessibility and UX best practices are priorities from the beginning. The project also values what game designers call "juice": visual micro-interactions and instant feedback that make users feel like they’re using something well-crafted.
 
-## 🌱 Princípios do Nuxt Rocket
+> ⚠️ **This project is in active development**: APIs, structure, and features may change without notice. Not production-ready.
 
--   ⚡ Velocidade no desenvolvimento e no carregamento
+## 🌱 Nuxt Rocket Principles
 
--   ♿ Acessibilidade pensada desde o início
-
--   🧃 UX com suco, não só com layout
-
--   🔧 Padronização mínima para ajudar times a fluírem
-
--   🧼 Simplicidade pragmática, sem overengineering
+-   ⚡ Speed in development and loading
+-   ♿ Accessibility considered from day one
+-   🧃 UX with juice, not just layout
+-   🔧 Minimal standardization to help teams flow
+-   🧼 Pragmatic simplicity, no over engineering
 
 ## ✅ Features
 
 ### 📦 Core
 
--   🧬 Componentização e SSR com [Nuxt 3](https://nuxt.com)
--   ✨ Classes utilitárias com [TailwindCSS 4](https://tailwindcss.com)
--   🗃️ Gerenciamento de estado global com [Pinia](https://pinia.vuejs.org)
--   🌗 Modos claro e escuro com [Nuxt Color Mode](https://color-mode.nuxtjs.org)
--   🖼️ Ícones fáceis com [Nuxt Icon](https://nuxt.com/modules/icon)
--   ⚙️ Configuração global simplificada em `app.config.js`
+-   🧬 Componentization and SSR with [Nuxt 3](https://nuxt.com)
+-   ✨ Utility-first styling with [TailwindCSS 4](https://tailwindcss.com)
+-   🗃️ Global state management with [Pinia](https://pinia.vuejs.org)
+-   🌗 Light and dark modes with [Nuxt Color Mode](https://color-mode.nuxtjs.org)
+-   🖼️ Easy icons with [Nuxt Icon](https://nuxt.com/modules/icon)
+-   🧩 Handy utilities with [Vue Use](https://vueuse.org/)
+-   ⚙️ Simplified global config in `app.config.js`
 
-### 🌈 UI e Experiência
+### 🌈 UI/UX
 
--   🧃 Design emocional (ou "suco") com [Vue Rewards](https://vuejsexamples.com/add-micro-interactions-to-your-app-and-rewards-users-with-the-rain-of-confetti-emoji-or-balloons)
--   🎨 Cores de tema customizáveis (primary, background, etc.)
+-   🧃 Emotional design ("juice") with [Vue Rewards](https://vuejsexamples.com/add-micro-interactions-to-your-app-and-rewards-users-with-the-rain-of-confetti-emoji-or-balloons)
+-   🎨 Customizable theme colors (`primary`, `highlight`, etc.)
 
 ### 🛠️ Dev Experience
 
--   ✍️ Corretor ortográfico com [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
--   ⚙️ `.vscode/settings.json` com padrões de equipe
+-   ✍️ Spell checker with [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+-   ⚙️ `.vscode/settings.json` with team standards
 
 ## 🛠️ Setup
 
-1.  Escolha seu gerenciador de pacotes preferido:
+1.  Create a repository from this template and clone it to your machine.
 
-### Usando **npm**
+2.  Choose your preferred package manager:
 
 ```bash
 npm install
 ```
 
-### Usando **pnpm**
+or
 
 ```bash
 pnpm install
 ```
 
-### Usando **yarn**
+or
 
 ```bash
 yarn install
 ```
 
-### Usando **bun**
+or
 
 ```bash
 bun install
 ```
 
-2.  Configure seu projeto em `app.config.js` — diversos componentes prontos usam essas configurações, então você não precisa editar um por um caso queira mudar algo, é só trocar nesse arquivo.
+3.  Configure your project in `app.config.js` — several ready-made components rely on these settings, so you won’t need to edit each one individually if you want to change something. Just update this file.
 
-3.  Altere as cores em `assets/css/main.css` para condizerem com as cores do tema do seu projeto.
+4.  Update the colors in `assets/css/main.css` to match your project’s theme.
 
-4.  Se você usa a extensão **Code Spell Checker**, palavras específicas do projeto podem ser adicionadas em `.vscode/words.txt`
+5.  If you're using the **Code Spell Checker** extension, project-specific words can be added to `.vscode/words.txt`.
 
 ## 📌 TODO
 
-### Principal
+### Core
 
--   [x] ✨ Adicionar TailwindCSS
--   [x] 🗃️ Adicionar estado global (store)
--   [ ] 🧩 Composables úteis
--   [ ] 🧱 Componentes globais básicos
--   [x] 🌙 Suporte a modo escuro
--   [ ] 🌐 Suporte a internacionalização (i18n)
--   [x] 🧃 "Suco" com Vue Rewards
--   [ ] 🔍 SEO básico
--   [ ] 🔐 Sistema de autenticação base
--   [x] 🖼️ Ícones simplificados
+-   [x] ✨ Add TailwindCSS
+-   [x] 🗃️ Add global state (store)
+-   [x] 🧩 Useful composables
+-   [ ] 🧱 Basic global components
+-   [x] 🌙 Dark mode support
+-   [ ] 🌐 Internationalization (i18n) support
+-   [x] 🧃 “Juice” with Vue Rewards
+-   [ ] 🔍 Basic SEO
+-   [ ] 🔐 Base authentication system
+-   [x] 🖼️ Simplified icons
 
 ### Extras
 
--   [x] 🎨 Cores de tema (`primary`, `background`)
--   [ ] 🗃️ Stores padrão (`ui`, `settings`)
+-   [x] 🎨 Theme colors (`primary`, `highlight`, etc.)
+-   [ ] 🗃️ Default stores (`ui`, `settings`, etc.)
 -   [ ] 🧹 Linter + Formatter
--   [ ] 📱 Suporte a PWA
+-   [ ] 📱 PWA support
 
 ---
 
-Feito com ☕ por quem prefere rocket-starts ao boilerplate infinito.
+Made with ☕ by someone who prefers rocket-starts over endless boilerplates.

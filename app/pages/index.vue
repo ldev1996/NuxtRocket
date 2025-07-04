@@ -43,8 +43,6 @@
     import { useReward } from 'vue-rewards'
     const { reward: confettiReward, isAnimating: isConfettiAnimating } =
         useReward('confetti-btn', 'confetti')
-    const { reward: ballonReward, isAnimating: isBallonAnimating } =
-        useReward('ballon-btn', 'balloons')
 
     const colorMode = useColorMode()
     const appConfig = useAppConfig()
