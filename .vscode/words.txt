@@ -4,3 +4,4 @@ vue
 vueuse
 pinia
 oklch
+tailwindcss
