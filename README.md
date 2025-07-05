@@ -95,4 +95,4 @@ bun install
 
 ---
 
-Made with ☕ by someone who prefers rocket-starts over endless boilerplates.
+Made with ☕ for those who prefer rocket-starts over endless boilerplates.
