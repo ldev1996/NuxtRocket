@@ -10,16 +10,20 @@
         "postinstall": "nuxt prepare"
     },
     "dependencies": {
-        "@nuxt/icon": "^1.14.0",
         "@nuxtjs/color-mode": "^3.5.2",
         "@pinia/nuxt": "^0.11.1",
-        "@tailwindcss/vite": "^4.1.10",
         "@vueuse/nuxt": "^13.5.0",
         "nuxt": "^3.17.5",
         "pinia": "^3.0.3",
-        "tailwindcss": "^4.1.10",
         "vue": "^3.5.16",
         "vue-rewards": "^1.0.3",
         "vue-router": "^4.5.1"
+    },
+    "devDependencies": {
+        "@iconify-json/flagpack": "^1.2.2",
+        "@unocss/nuxt": "^66.3.2",
+        "@unocss/preset-icons": "^66.3.2",
+        "@unocss/preset-wind4": "^66.3.2",
+        "unocss": "^66.3.2"
     }
 }

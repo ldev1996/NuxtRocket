@@ -21,10 +21,9 @@ The focus goes beyond technical aspects — accessibility and UX best practices 
 ### 📦 Core
 
 -   🧬 Componentization and SSR with [Nuxt 3](https://nuxt.com)
--   ✨ Utility-first styling with [TailwindCSS 4](https://tailwindcss.com)
+-   ✨ Utility-first styling and easy icons with [Uno CSS](https://unocss.dev/)
 -   🗃️ Global state management with [Pinia](https://pinia.vuejs.org)
 -   🌗 Light and dark modes with [Nuxt Color Mode](https://color-mode.nuxtjs.org)
--   🖼️ Easy icons with [Nuxt Icon](https://nuxt.com/modules/icon)
 -   🧩 Handy utilities with [Vue Use](https://vueuse.org/)
 -   ⚙️ Simplified global config in `app.config.js`
 
@@ -76,13 +75,13 @@ bun install
 
 ### Core
 
--   [x] ✨ Add TailwindCSS
+-   [x] ✨ Atomic CSS classes
 -   [x] 🗃️ Add global state (store)
 -   [x] 🧩 Useful composables
 -   [ ] 🧱 Basic global components
 -   [x] 🌙 Dark mode support
 -   [ ] 🌐 Internationalization (i18n) support
--   [x] 🧃 “Juice” with Vue Rewards
+-   [x] 🧃 “Juice” support
 -   [ ] 🔍 Basic SEO
 -   [ ] 🔐 Base authentication system
 -   [x] 🖼️ Simplified icons

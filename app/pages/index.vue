@@ -3,11 +3,6 @@
         class="flex flex-col items-center justify-center gap-2 p-4 bg-surface rounded-xl border border-highlight"
     >
         <div class="w-full flex gap-4">
-            <Icon
-                :name="selectedTheme.icon"
-                size="64"
-                class="text-foreground"
-            />
             <div class="self-baseline">
                 <h1 class="text-foreground text-2xl">Nuxt Rocket</h1>
                 <p class="text-foreground-muted">
@@ -26,7 +21,6 @@
                 id="confetti-btn"
                 class="bg-primary/20 text-primary hover:bg-primary-alt/20 p-2 rounded-lg cursor-pointer transition-colors gap-2 flex items-center justify-center"
             >
-                <Icon name="lucide:party-popper" />
                 Let's Party with Confetti!
             </button>
             <Skeleton
@@ -43,11 +37,4 @@
     import { useReward } from 'vue-rewards'
     const { reward: confettiReward, isAnimating: isConfettiAnimating } =
         useReward('confetti-btn', 'confetti')
-
-    const colorMode = useColorMode()
-    const appConfig = useAppConfig()
-
-    const selectedTheme = computed(() =>
-        appConfig.themes.find((t) => t.value === colorMode.preference) || appConfig.themes[0]
-    )
 </script>

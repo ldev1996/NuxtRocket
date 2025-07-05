@@ -1,5 +1,3 @@
-import tailwindcss from '@tailwindcss/vite'
-
 export default defineNuxtConfig({
     compatibilityDate: '2025-05-15',
     devtools: { enabled: true },
@@ -19,8 +17,12 @@ export default defineNuxtConfig({
         },
     ],
     css: ['~/assets/css/main.css'],
-    vite: { plugins: [tailwindcss()] },
-    modules: ['@nuxtjs/color-mode', '@nuxt/icon', '@pinia/nuxt', '@vueuse/nuxt'],
+    modules: [
+        '@nuxtjs/color-mode',
+        '@pinia/nuxt',
+        '@vueuse/nuxt',
+        '@unocss/nuxt',
+    ],
     colorMode: {
         preference: 'system', // default value of $colorMode.preference
         fallback: 'light', // fallback value if not system preference found
