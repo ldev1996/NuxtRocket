@@ -21,7 +21,7 @@
     --theme-danger-alt: oklch(0.704 0.191 22.216);
 }
 
-.dark-mode {
+.dark {
     /* Brand ----------------------------------------- */
     --theme-primary: oklch(70.7% 0.165 254.624);
     --theme-primary-alt: oklch(62.3% 0.214 259.815);

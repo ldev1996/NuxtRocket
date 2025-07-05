@@ -23,7 +23,6 @@ The focus goes beyond technical aspects — accessibility and UX best practices 
 -   🧬 Componentization and SSR with [Nuxt 3](https://nuxt.com)
 -   ✨ Utility-first styling and easy icons with [Uno CSS](https://unocss.dev/)
 -   🗃️ Global state management with [Pinia](https://pinia.vuejs.org)
--   🌗 Light and dark modes with [Nuxt Color Mode](https://color-mode.nuxtjs.org)
 -   🧩 Handy utilities with [Vue Use](https://vueuse.org/)
 -   ⚙️ Simplified global config in `app.config.js`
 

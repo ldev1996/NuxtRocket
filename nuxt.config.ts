@@ -17,16 +17,5 @@ export default defineNuxtConfig({
         },
     ],
     css: ['~/assets/css/main.css'],
-    modules: [
-        '@nuxtjs/color-mode',
-        '@pinia/nuxt',
-        '@vueuse/nuxt',
-        '@unocss/nuxt',
-    ],
-    colorMode: {
-        preference: 'system', // default value of $colorMode.preference
-        fallback: 'light', // fallback value if not system preference found
-        storage: 'localStorage', // or 'sessionStorage' or 'cookie'
-        storageKey: 'nuxt-color-mode',
-    },
+    modules: ['@pinia/nuxt', '@vueuse/nuxt', '@unocss/nuxt'],
 })

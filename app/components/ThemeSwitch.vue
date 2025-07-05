@@ -1,22 +1,24 @@
 <template>
     <label class="flex items-center gap-2 text-sm text-foreground">
         Theme
-        <select
-            v-model="colorMode.preference"
-            class="bg-highlight rounded-lg p-1 cursor-pointer"
+        <button
+            @click="next()"
+            class="bg-highlight rounded-lg py-1 px-2 cursor-pointer text-foreground"
         >
-            <option
-                v-for="theme in appConfig.themes"
-                :key="theme.label"
-                :value="theme.value"
-            >
-                {{ theme.label }}
-            </option>
-        </select>
+            {{ state }}
+        </button>
     </label>
 </template>
 
 <script setup lang="js">
-    const colorMode = useColorMode()
-    const appConfig = useAppConfig()
+    import { useColorMode, useCycleList } from '@vueuse/core'
+    const themes = useAppConfig().themes
+    const mode = useColorMode({ modes: themes })
+
+    const { state, next } = useCycleList(
+        themes,
+        { initialValue: mode }
+    )
+
+    watchEffect(() => (mode.value = state.value))
 </script>

@@ -1,6 +1,5 @@
 {
     "name": "nuxt-rocket",
-    "private": true,
     "type": "module",
     "scripts": {
         "build": "nuxt build",
@@ -10,7 +9,6 @@
         "postinstall": "nuxt prepare"
     },
     "dependencies": {
-        "@nuxtjs/color-mode": "^3.5.2",
         "@pinia/nuxt": "^0.11.1",
         "@vueuse/nuxt": "^13.5.0",
         "nuxt": "^3.17.5",

@@ -8,18 +8,5 @@
         }
     },
     "cSpell.allowCompoundWords": true,
-    "cSpell.overrides": [
-        {
-            "filename": "package.json",
-            "ignoreRegExpList": [
-                "\"dependencies\"\\s*:\\s*\\{[^}]*\\}",
-                "\"devDependencies\"\\s*:\\s*\\{[^}]*\\}"
-            ]
-        },
-        {
-            "filename": "nuxt.config.ts",
-            "ignoreRegExpList": ["modules\\s*:\\s*\\[[^\\]]*\\]"]
-        }
-    ],
-    "cSpell.words": ["nuxt"]
+    "cSpell.words": ["nuxt", "nuxtjs", "vueuse", "unocss", "iconify"]
 }
