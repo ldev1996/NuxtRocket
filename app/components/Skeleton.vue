@@ -1,6 +1,6 @@
 <template>
     <div
-        :class="['bg-highlight animate-pulse shadow rounded-', r]"
+        :class="['bg-highlight animate-pulse shadow', r]"
         :style="size"
     />
 </template>
