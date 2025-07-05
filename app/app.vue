@@ -5,11 +5,11 @@
 </template>
 
 <script setup lang="js">
-    const appConfig = useAppConfig()
+    const appName = useAppConfig().appName
 
     useHead({
         titleTemplate: (titleChunk) => {
-            return titleChunk ? `${titleChunk} - ${appConfig.appName}` : `${appConfig.appName}`;
+            return titleChunk ? `${titleChunk} - ${appName}` : `${appName}`;
         }
     })
 </script>
