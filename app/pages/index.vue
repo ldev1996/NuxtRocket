@@ -19,7 +19,7 @@
             <button
                 @click="confettiReward"
                 id="confetti-btn"
-                class="bg-primary/20 text-primary hover:bg-primary-alt/20 p-2 rounded-lg cursor-pointer transition-colors gap-2 flex items-center justify-center"
+                class="bg-primary hover:bg-primary-alt text-foreground p-2 rounded-lg cursor-pointer transition-colors gap-2 flex items-center justify-center"
             >
                 Let's Party with Confetti!
             </button>

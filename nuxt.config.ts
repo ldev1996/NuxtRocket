@@ -16,6 +16,6 @@ export default defineNuxtConfig({
             pathPrefix: false,
         },
     ],
-    css: ['~/assets/css/main.css'],
+    css: ['~/assets/css/theme.css'],
     modules: ['@pinia/nuxt', '@vueuse/nuxt', '@unocss/nuxt'],
 })

@@ -15,31 +15,31 @@ export default defineConfig({
     theme: {
         colors: {
             primary: {
-                DEFAULT: 'var(--theme-primary)',
-                alt: 'var(--theme-primary-alt)',
+                DEFAULT: 'var(--color-primary)',
+                alt: 'var(--color-primary-alt)',
             },
             secondary: {
-                DEFAULT: 'var(--theme-secondary)',
-                alt: 'var(--theme-secondary-alt)',
+                DEFAULT: 'var(--color-secondary)',
+                alt: 'var(--color-secondary-alt)',
             },
             success: {
-                DEFAULT: 'var(--theme-success)',
-                alt: 'var(--theme-success-alt)',
+                DEFAULT: 'var(--color-success)',
+                alt: 'var(--color-success-alt)',
             },
             warning: {
-                DEFAULT: 'var(--theme-warning)',
-                alt: 'var(--theme-warning-alt)',
+                DEFAULT: 'var(--color-warning)',
+                alt: 'var(--color-warning-alt)',
             },
             danger: {
-                DEFAULT: 'var(--theme-danger)',
-                alt: 'var(--theme-danger-alt)',
+                DEFAULT: 'var(--color-danger)',
+                alt: 'var(--color-danger-alt)',
             },
-            base: 'var(--theme-base)',
-            surface: 'var(--theme-surface)',
-            highlight: 'var(--theme-highlight)',
+            base: 'var(--color-base)',
+            surface: 'var(--color-surface)',
+            highlight: 'var(--color-highlight)',
             foreground: {
-                DEFAULT: 'var(--theme-foreground)',
-                muted: 'var(--theme-foreground-muted)',
+                DEFAULT: 'var(--color-foreground)',
+                muted: 'var(--color-foreground-muted)',
             },
         },
     },
