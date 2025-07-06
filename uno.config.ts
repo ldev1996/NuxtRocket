@@ -1,6 +1,4 @@
-import { defineConfig } from 'unocss'
-import presetWind4 from '@unocss/preset-wind4'
-import presetIcons from '@unocss/preset-icons'
+import { defineConfig, presetWind4, presetIcons } from 'unocss'
 
 export default defineConfig({
     presets: [
