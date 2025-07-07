@@ -19,22 +19,37 @@
             <button
                 @click="confettiReward"
                 id="confetti-btn"
-                class="bg-primary hover:bg-primary-alt text-foreground p-2 rounded-lg cursor-pointer transition-colors gap-2 flex items-center justify-center"
+                class="bg-primary hover:bg-primary-alt text-foreground p-2 rounded-lg cursor-pointer transition-colors flex items-center justify-center"
             >
                 Let's Party with Confetti!
             </button>
+            <button
+                class="bg-primary hover:bg-primary-alt text-foreground p-2 rounded-lg cursor-pointer transition-colors"
+                @click="isModalOpen = true"
+            >
+                Open Modal
+            </button>
+            <Modal
+                v-model:open="isModalOpen"
+                title="Nuxt Rocket is Amazing!"
+            >
+                <p>Click outside this modal to close it.</p>
+            </Modal>
+        </div>
+        <div class="flex gap-2">
+            <ThemeSwitch />
             <Skeleton
                 w="10rem"
                 h="3rem"
                 r="rounded-md"
             />
         </div>
-        <ThemeSwitch />
     </div>
 </template>
 
 <script setup lang="js">
     import { useReward } from 'vue-rewards'
-    const { reward: confettiReward, isAnimating: isConfettiAnimating } =
+    const { reward: confettiReward } =
         useReward('confetti-btn', 'confetti')
+    const isModalOpen = ref(false)
 </script>

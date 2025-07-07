@@ -39,10 +39,6 @@ The focus goes beyond technical aspects — accessibility and UX best practices 
 -   📁 Pre-configured folder structure
 -   🧱 Layout system
 
-### 🔍 SEO
-
--   🧠 Dynamic document titles with `titleTemplate`
-
 ## 🛠️ Setup
 
 1.  Create a repository from this template and clone it to your machine.
