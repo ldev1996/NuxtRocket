@@ -17,5 +17,5 @@ export default defineNuxtConfig({
         },
     ],
     css: ['~/assets/css/theme.css'],
-    modules: ['@pinia/nuxt', '@vueuse/nuxt', '@unocss/nuxt'],
+    modules: ['@pinia/nuxt', '@vueuse/nuxt', '@unocss/nuxt', '@nuxtjs/seo'],
 })

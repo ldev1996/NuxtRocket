@@ -9,6 +9,7 @@
         "postinstall": "nuxt prepare"
     },
     "dependencies": {
+        "@nuxtjs/seo": "^3.1.0",
         "@pinia/nuxt": "^0.11.1",
         "@vueuse/nuxt": "^13.5.0",
         "nuxt": "^3.17.5",

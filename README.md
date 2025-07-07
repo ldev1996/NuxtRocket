@@ -24,6 +24,7 @@ The focus goes beyond technical aspects — accessibility and UX best practices 
 -   ✨ Utility-first styling and easy icons via [Uno CSS](https://unocss.dev/)
 -   🗃️ Global state management with [Pinia](https://pinia.vuejs.org)
 -   🧩 Handy utilities with [VueUse](https://vueuse.org/)
+-   🔍 Full SEO support with [Nuxt SEO](https://nuxtseo.com/)
 -   ⚙️ Simplified global config in `app.config.js`
 
 ### 🌈 UI/UX
@@ -70,9 +71,9 @@ or
 bun install
 ```
 
-3.  Configure your project in `app.config.js` — many built-in components read from this config, so you won’t need to edit each one individually if you want to change something. Just update this file.
+3.  Configure your project in `app.config.js` — many built-in components and features use this config. Change it once and your settings propagate automatically (including SEO).
 
-4.  Customize `main.css` theme tokens to match your project.
+4.  Customize `theme.css` theme tokens to match your project.
 
 5.  If you're using the **Code Spell Checker** extension, project-specific words can be added to `.vscode/words.txt`.
 
@@ -86,9 +87,9 @@ bun install
 -   [x] 🗃️ Global state management
 -   [x] 🧩 Useful composables
 -   [x] 🧃 Microinteractions
+-   [x] 🔍 Basic SEO
 -   [ ] 🧱 Basic global components
 -   [ ] 🌐 Internationalization (i18n) support
--   [ ] 🔍 Basic SEO
 
 ### Extras (Quality of Life & DX)
 
