@@ -35,7 +35,8 @@ The focus goes beyond technical aspects — accessibility and UX best practices 
 ### 🛠️ Dev Experience
 
 -   ✍️ Spell checker with [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
--   ⚙️ `.vscode/settings.json` with team standards
+-   🎛️ Custom `Selector` component powered by [Vue 3 Select Component](https://vue3-select-component.vercel.app/), plus other built-in components
+-   ⚙️ Predefined `.vscode/settings.json` with team standards
 -   📁 Pre-configured folder structure
 -   🧱 Layout system
 
@@ -84,7 +85,7 @@ bun install
 -   [x] 🧩 Useful composables
 -   [x] 🧃 Microinteractions
 -   [x] 🔍 Basic SEO
--   [ ] 🧱 Basic global components
+-   [x] 🧱 Basic global components
 -   [ ] 🌐 Internationalization (i18n) support
 
 ### Extras (Quality of Life & DX)

@@ -44,6 +44,15 @@
                 r="rounded-md"
             />
         </div>
+        <Selector
+            v-model="selected"
+            :options="[
+                { label: 'NuxtJS', value: 'nuxtjs' },
+                { label: 'Rockets', value: 'rockets' },
+                { label: 'Functions', value: 'functions' },
+            ]"
+            placeholder="Select a topic"
+        />
     </div>
 </template>
 
@@ -52,4 +61,5 @@
     const { reward: confettiReward } =
         useReward('confetti-btn', 'confetti')
     const isModalOpen = ref(false)
+    const selected = ref('')
 </script>

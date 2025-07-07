@@ -8,5 +8,5 @@
         }
     },
     "cSpell.allowCompoundWords": true,
-    "cSpell.words": ["nuxt", "nuxtjs", "vueuse", "unocss", "iconify"]
+    "cSpell.words": ["nuxt", "nuxtjs", "vueuse", "unocss", "iconify", "xmark"]
 }
