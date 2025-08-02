@@ -1,0 +1,1 @@
+# 🚀 Nuxt Rocket Base Template
