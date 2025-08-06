@@ -1,1 +1,3 @@
-<template>Nuxt Rocket</template>
+<template>
+    <p>{{ $t('rocket.welcome') }}</p>
+</template>

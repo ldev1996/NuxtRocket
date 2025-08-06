@@ -2,7 +2,19 @@
 export default defineNuxtConfig({
     compatibilityDate: '2025-07-15',
     devtools: { enabled: true },
-    modules: ['@primevue/nuxt-module', '@unocss/nuxt'],
+    modules: [
+        '@primevue/nuxt-module',
+        '@unocss/nuxt',
+        '@nuxtjs/i18n',
+        '@vueuse/nuxt',
+    ],
+    i18n: {
+        defaultLocale: 'en',
+        locales: [
+            { code: 'en', name: 'English', file: 'en.json' },
+            // { code: 'pt', name: 'Português', file: 'pt.json' }
+        ],
+    },
     primevue: {
         importPT: {
             from: '@/style.ts',

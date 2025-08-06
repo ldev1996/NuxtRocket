@@ -6,14 +6,16 @@ The idea is simple: eliminate repetitive setup, standardize the essentials, and 
 
 ## Content
 
--   [Nuxt 4](hhtps://nuxt.com)
--   [PrimeVue](https://primevue.org/) (Unstyled mode)
--   [UnoCSS](https://unocss.dev/)
+-   🧬 [Nuxt 4](hhtps://nuxt.com)
+-   🧱 [PrimeVue](https://primevue.org/) (Unstyled mode)
+-   ✨ [UnoCSS](https://unocss.dev/)
+-   🌐 [Nuxt i18n](https://i18n.nuxtjs.org/)
+-   🧩 [VueUse](https://vueuse.org/)
 
 ## Features
 
--   Theme system
--   Utility-first CSS (Tailwind-compatible)
+-   🎨 Theme system with utility-first CSS `(Tailwind-compatible)`
+-   🖼️ Iconify icons support with `UnCSS icons preset`
 
 ## Getting Started
 
