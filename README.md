@@ -1,12 +1,12 @@
 # 🚀 Nuxt Rocket
 
-**Nuxt Rocket** is an opinionated starting point for modern Nuxt 3 projects.
+**Nuxt Rocket** is an opinionated starting point for modern Nuxt 4 projects.
 
 The idea is simple: eliminate repetitive setup, standardize the essentials, and create a solid foundation focused on performance, user experience, and long-term maintainability.
 
 ## Content
 
--   🧬 [Nuxt 4](hhtps://nuxt.com)
+-   🧬 [Nuxt 4](https://nuxt.com/)
 -   🧱 [PrimeVue](https://primevue.org/) (Unstyled mode)
 -   ✨ [UnoCSS](https://unocss.dev/)
 -   🌐 [Nuxt i18n](https://i18n.nuxtjs.org/)
@@ -15,7 +15,7 @@ The idea is simple: eliminate repetitive setup, standardize the essentials, and 
 ## Features
 
 -   🎨 Theme system with utility-first CSS `(Tailwind-compatible)`
--   🖼️ Iconify icons support with `UnCSS icons preset`
+-   🖼️ Iconify icons support with `UnoCSS icons preset`
 
 ## Getting Started
 
