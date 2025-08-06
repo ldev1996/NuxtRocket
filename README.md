@@ -1,75 +1,36 @@
-# Nuxt Minimal Starter
+# 🚀 Nuxt Rocket
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+**Nuxt Rocket** is an opinionated starting point for modern Nuxt 3 projects.
 
-## Setup
+The idea is simple: eliminate repetitive setup, standardize the essentials, and create a solid foundation focused on performance, user experience, and long-term maintainability.
 
-Make sure to install dependencies:
+## Content
 
-```bash
-# npm
-npm install
+-   [Nuxt 4](hhtps://nuxt.com)
+-   [PrimeVue](https://primevue.org/) (Unstyled mode)
+-   [UnoCSS](https://unocss.dev/)
 
-# pnpm
-pnpm install
+## Features
 
-# yarn
-yarn install
+-   Theme system
+-   Utility-first CSS (Tailwind-compatible)
 
-# bun
-bun install
-```
+## Getting Started
 
-## Development Server
+1. Create a repository from this template and clone it to your machine.
 
-Start the development server on `http://localhost:3000`:
+2. Run `npm install`, `pnpm install`, `yarn install` or `bun install`.
 
-```bash
-# npm
-npm run dev
+3. Customize your components in `style.ts` and your color palette in `theme.css`.
 
-# pnpm
-pnpm dev
+# MIT License
 
-# yarn
-yarn dev
+Copyright (c) 2025 L dev
 
-# bun
-bun run dev
-```
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## Production
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-Build the application for production:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+> ⚠️ Note: The license applies only to the template itself — apps created from it are your own and are not affected by this license.

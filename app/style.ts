@@ -1,5 +1,8 @@
+// ⚠️ If you remove the comment below, this PassTrough will stop working.
 // @unocss-include
 
-const RocketStyle = {}
+import type { PrimeVuePTOptions } from 'primevue'
+
+const RocketStyle: PrimeVuePTOptions = {}
 
 export default RocketStyle
