@@ -3,11 +3,11 @@ export default defineNuxtConfig({
     compatibilityDate: '2025-07-15',
     devtools: { enabled: true },
     modules: [
-      '@primevue/nuxt-module',
-      '@unocss/nuxt',
-      '@nuxtjs/i18n',
-      '@vueuse/nuxt',
-      '@pinia/nuxt',
+        '@primevue/nuxt-module',
+        '@unocss/nuxt',
+        '@nuxtjs/i18n',
+        '@vueuse/nuxt',
+        '@pinia/nuxt',
     ],
     i18n: {
         defaultLocale: 'en',
@@ -24,4 +24,5 @@ export default defineNuxtConfig({
             unstyled: true,
         },
     },
+    css: ['~/assets/css/theme.css'],
 })
