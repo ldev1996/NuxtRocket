@@ -11,11 +11,13 @@ The idea is simple: eliminate repetitive setup, standardize the essentials, and 
 -   ✨ [UnoCSS](https://unocss.dev/)
 -   🌐 [Nuxt i18n](https://i18n.nuxtjs.org/)
 -   🧩 [VueUse](https://vueuse.org/)
+-   🍍 [Pinia](https://pinia.vuejs.org/)
 
 ## Features
 
 -   🎨 Theme system with utility-first CSS `(Tailwind-compatible)`
 -   🖼️ Iconify icons support with `UnoCSS icons preset`
+-   🦾 Full `TypeScript` support
 
 ## Getting Started
 

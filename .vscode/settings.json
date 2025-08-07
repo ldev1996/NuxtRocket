@@ -1,0 +1,12 @@
+{
+    "cSpell.customDictionaries": {
+        "project": {
+            "name": "project",
+            "path": "./.vscode/words.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    },
+    "cSpell.allowCompoundWords": true,
+    "i18n-ally.localesPaths": ["i18n", "i18n/locales"]
+}
