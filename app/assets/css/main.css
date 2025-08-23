@@ -1,44 +1,27 @@
-/*
-🎨 Nuxt Rocket Theme System
-
-Customize your design system by:
-- Editing only the base variables (brand, neutral, semantic).
-- Letting derived values auto-generate from them.
-
-To add new themes:
-- Register them in app.config.js under "themes".
-- Define their styles in this file using the matching class name.
-
-⚠️ Avoid removing the default themes (light, dark, auto), you can only edit them.
-*/
-
 :root {
-    /* Brand ----------------------------------------- */
-    --color-primary: oklch(70.7% 0.165 254.624);
-    --color-secondary: oklch(78.9% 0.154 211.53);
+    /* Light Tones ----------------------------------- */
+    --color-light-50: oklch(99.4% 0 0);
+    --color-light-100: oklch(99.1% 0 0);
+    --color-light-200: oklch(98.5% 0 0);
+    --color-light-300: oklch(98.2% 0 0);
+    --color-light-400: oklch(97.3% 0 0);
+    --color-light-500: oklch(96.1% 0 0);
+    --color-light-600: oklch(96.3% 0 0);
+    --color-light-700: oklch(94.2% 0 0);
+    --color-light-800: oklch(91.1% 0 0);
+    --color-light-900: oklch(90.7% 0 0);
+    --color-light-950: oklch(89.2% 0 0);
 
-    /* Neutral --------------------------------------- */
-    --color-base: oklch(92% 0.006 264);
-    --color-foreground: oklch(5% 0 0);
-    --color-foreground-muted: oklch(40% 0 0);
-
-    /* Semantic -------------------------------------- */
-    --color-success: oklch(79.2% 0.209 151.7);
-    --color-warning: oklch(85.2% 0.199 91.9);
-    --color-danger: oklch(70.4% 0.191 22.2);
-
-    /* Derived Shades -------------------------------- */
-    --color-primary-alt: oklch(from var(--color-primary) calc(l + 0.1) c h);
-    --color-secondary-alt: oklch(from var(--color-secondary) calc(l + 0.1) c h);
-    --color-surface: oklch(from var(--color-base) calc(l + 0.04) c h);
-    --color-highlight: oklch(from var(--color-base) calc(l + 0.08) c h);
-    --color-success-alt: oklch(from var(--color-success) calc(l + 0.08) c h);
-    --color-warning-alt: oklch(from var(--color-warning) calc(l + 0.08) c h);
-    --color-danger-alt: oklch(from var(--color-danger) calc(l + 0.08) c h);
-}
-
-.dark {
-    --color-base: oklch(20.9% 0.01 260);
-    --color-foreground: oklch(95% 0 0);
-    --color-foreground-muted: oklch(60% 0 0);
+    /* Dark Tones ------------------------------------ */
+    --color-dark-50: oklch(40.9% 0 0);
+    --color-dark-100: oklch(35.6% 0 0);
+    --color-dark-200: oklch(31.7% 0 0);
+    --color-dark-300: oklch(29.7% 0 0);
+    --color-dark-400: oklch(25.2% 0 0);
+    --color-dark-500: oklch(23.9% 0 0);
+    --color-dark-600: oklch(22.7% 0 0);
+    --color-dark-700: oklch(22.2% 0 0);
+    --color-dark-800: oklch(20.9% 0 0);
+    --color-dark-900: oklch(16.8% 0 0);
+    --color-dark-950: oklch(13.4% 0 0);
 }

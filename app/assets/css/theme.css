@@ -1,0 +1,35 @@
+:root {
+    /* Brand ----------------------------------------- */
+    --color-primary: oklch(70.7% 0.165 254.624);
+    --color-secondary: oklch(78.9% 0.154 211.53);
+
+    /* Semantic -------------------------------------- */
+    --color-success: oklch(79.2% 0.209 151.7);
+    --color-warning: oklch(85.2% 0.199 91.9);
+    --color-danger: oklch(70.4% 0.191 22.2);
+
+    /* Neutral --------------------------------------- */
+    --color-base: var(--color-light-50);
+    --color-surface: var(--color-light-600);
+    --color-foreground: var(--color-dark-950);
+    --color-muted: var(--color-dark-50);
+    --color-border: var(--color-light-900);
+    --color-overlay: var(--color-light-950);
+
+    /* Derived Shades -------------------------------- */
+    --color-primary-alt: oklch(from var(--color-primary) calc(l + 0.1) c h);
+    --color-secondary-alt: oklch(from var(--color-secondary) calc(l + 0.1) c h);
+    --color-success-alt: oklch(from var(--color-success) calc(l + 0.08) c h);
+    --color-warning-alt: oklch(from var(--color-warning) calc(l + 0.08) c h);
+    --color-danger-alt: oklch(from var(--color-danger) calc(l + 0.08) c h);
+}
+
+.dark {
+    /* Neutral --------------------------------------- */
+    --color-base: var(--color-dark-950);
+    --color-surface: var(--color-dark-800);
+    --color-foreground: var(--color-light-50);
+    --color-muted: var(--color-light-950);
+    --color-border: var(--color-dark-300);
+    --color-overlay: var(--color-dark-400);
+}

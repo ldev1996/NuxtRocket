@@ -1,11 +1,101 @@
 <template>
-    <div _p="x-6 y-4">
-        <button
-            _btn
-            _bg="primary hover:primary-alt"
-            _text="foreground"
+    <div class="min-h-screen flex flex-col dark">
+        <!-- Header -->
+        <header class="p-4 bg-surface text-foreground">
+            <h1 class="text-2xl font-bold mb-2">🚀 Nuxt Rocket</h1>
+            <button
+                @click="toggleDark"
+                class="btn-primary"
+            >
+                Toggle Dark
+            </button>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-1 p-6 bg-base text-foreground">
+            <p
+                _text-justify
+                _mb-2
+            >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse massa quam, vehicula nec dignissim sit amet,
+                accumsan eget ex. Morbi viverra feugiat lacus in mattis.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                Donec ultrices sapien sit amet dolor feugiat, id viverra sem
+                facilisis. Morbi commodo libero id dignissim luctus. Sed in leo
+                at magna tincidunt congue eget et nunc. Nunc pharetra ac risus
+                eu elementum. Proin id massa leo. Sed vitae vehicula ligula.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                posuere cubilia curae; Vivamus justo augue, dapibus ut volutpat
+                et, auctor a justo. Duis gravida, est non lobortis maximus,
+                lorem magna tincidunt orci, vitae ornare erat nisl vitae urna.
+                Donec eu diam id libero porttitor ornare et at tellus.
+            </p>
+            <p
+                _text-justify
+                _mb-2
+            >
+                Duis consectetur odio id ex imperdiet dictum. Mauris metus
+                magna, convallis et risus a, pellentesque dapibus urna. Nam
+                facilisis diam eget ante maximus, auctor posuere sem euismod.
+                Duis condimentum lacus non tortor sodales fermentum. Ut sed
+                ligula enim. Vivamus ultrices, mi at suscipit gravida, mi nisi
+                malesuada est, ac placerat metus lectus sed tortor. Vestibulum
+                eu porttitor felis. Morbi posuere fringilla laoreet. Vestibulum
+                condimentum pulvinar mi at rutrum.
+            </p>
+            <div
+                class="mt-4 p-4 rounded bg-surface border border-border text-foreground shadow-md shadow-overlay"
+            >
+                A Card
+            </div>
+            <div class="mt-4 p-4 rounded bg-surface">
+                <h2
+                    _text-foreground
+                    _font-semibold
+                >
+                    An Area
+                </h2>
+                <p
+                    _text-muted
+                    _italic
+                >
+                    Integer vitae lectus est. Curabitur hendrerit ac dolor
+                    tristique facilisis. Sed malesuada, nisi ut condimentum
+                    placerat, eros tortor faucibus lacus, et tristique enim urna
+                    eget tellus. Suspendisse consectetur at ex vitae dignissim.
+                    Vivamus commodo orci dui, vitae suscipit risus porta eget.
+                    Etiam consequat mauris et lacinia dignissim.
+                </p>
+            </div>
+            <div
+                _flex="~ row"
+                _gap-2
+                _mt-4
+            >
+                <button _btn-primary>Button</button>
+                <button _btn-secondary>Button</button>
+                <Button _btn-success>Button</Button>
+                <button _btn-warning>Button</button>
+                <button _btn-danger>Button</button>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer
+            class="p-4 text-center bg-surface text-muted border-t border-border"
         >
-            🚀 Nuxt Rocket
-        </button>
+            A Footer
+        </footer>
     </div>
 </template>
+
+<script setup lang="ts">
+    import { ref } from 'vue'
+
+    const isDark = ref(true)
+    const toggleDark = () => {
+        isDark.value = !isDark.value
+        document.documentElement.classList.toggle('dark', isDark.value)
+    }
+</script>
