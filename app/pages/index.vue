@@ -3,12 +3,7 @@
         <!-- Header -->
         <header class="p-4 bg-surface text-foreground">
             <h1 class="text-2xl font-bold mb-2">🚀 Nuxt Rocket</h1>
-            <button
-                @click="toggleDark"
-                class="btn-ghost"
-            >
-                Toggle Dark
-            </button>
+            <ThemeSwitcher />
         </header>
 
         <!-- Main Content -->
