@@ -74,8 +74,9 @@ export default defineConfig({
                 focus-visible:ring-offset-2 focus-visible:ring-offset-base
             `,
             'btn-outline':
-                'btn border border-border bg-transparent hover:bg-surface focus-visible:ring-foreground',
-            'btn-ghost': 'btn bg-transparent hover:bg-overlay focus-visible:ring-foreground',
+                'btn border border-border bg-transparent hover:bg-surface focus-visible:ring-foreground text-foreground',
+            'btn-ghost':
+                'btn bg-transparent hover:bg-overlay focus-visible:ring-foreground text-foreground',
         },
         {
             card: 'rounded-2xl shadow p-4 bg-surface border border-border',

@@ -8,6 +8,18 @@
 
         <!-- Main Content -->
         <main class="flex-1 p-6 bg-base">
+            <button
+                class="btn-secondary"
+                @click="isModalOpen = true"
+            >
+                Open Modal
+            </button>
+            <Modal
+                v-model:open="isModalOpen"
+                title="Nuxt Rocket is Amazing!"
+            >
+                <p>Click outside this modal to close it.</p>
+            </Modal>
             <p
                 _text="~ justify"
                 _mb-2
@@ -70,11 +82,5 @@
 </template>
 
 <script setup lang="ts">
-    import { ref } from 'vue'
-
-    const isDark = ref(true)
-    const toggleDark = () => {
-        isDark.value = !isDark.value
-        document.documentElement.classList.toggle('dark', isDark.value)
-    }
+    const isModalOpen = ref(false)
 </script>
