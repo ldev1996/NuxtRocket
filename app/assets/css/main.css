@@ -1,27 +1,13 @@
 :root {
-    /* Light Tones ----------------------------------- */
-    --color-light-50: oklch(99.4% 0 0);
-    --color-light-100: oklch(99.1% 0 0);
-    --color-light-200: oklch(98.5% 0 0);
-    --color-light-300: oklch(98.2% 0 0);
-    --color-light-400: oklch(97.3% 0 0);
-    --color-light-500: oklch(96.1% 0 0);
-    --color-light-600: oklch(96.3% 0 0);
-    --color-light-700: oklch(94.2% 0 0);
-    --color-light-800: oklch(91.1% 0 0);
-    --color-light-900: oklch(90.7% 0 0);
-    --color-light-950: oklch(89.2% 0 0);
-
-    /* Dark Tones ------------------------------------ */
-    --color-dark-50: oklch(40.9% 0 0);
-    --color-dark-100: oklch(35.6% 0 0);
-    --color-dark-200: oklch(31.7% 0 0);
-    --color-dark-300: oklch(29.7% 0 0);
-    --color-dark-400: oklch(25.2% 0 0);
-    --color-dark-500: oklch(23.9% 0 0);
-    --color-dark-600: oklch(22.7% 0 0);
-    --color-dark-700: oklch(22.2% 0 0);
-    --color-dark-800: oklch(20.9% 0 0);
-    --color-dark-900: oklch(16.8% 0 0);
-    --color-dark-950: oklch(13.4% 0 0);
+    --color-neutral-50: oklch(0.985 0 0);
+    --color-neutral-100: oklch(0.97 0 0);
+    --color-neutral-200: oklch(0.922 0 0);
+    --color-neutral-300: oklch(0.87 0 0);
+    --color-neutral-400: oklch(0.708 0 0);
+    --color-neutral-500: oklch(0.556 0 0);
+    --color-neutral-600: oklch(0.439 0 0);
+    --color-neutral-700: oklch(0.371 0 0);
+    --color-neutral-800: oklch(0.269 0 0);
+    --color-neutral-900: oklch(0.205 0 0);
+    --color-neutral-950: oklch(0.145 0 0);
 }

@@ -9,12 +9,12 @@
     --color-danger: oklch(70.4% 0.191 22.2);
 
     /* Neutral --------------------------------------- */
-    --color-base: var(--color-light-50);
-    --color-surface: var(--color-light-600);
-    --color-foreground: var(--color-dark-950);
-    --color-muted: var(--color-dark-50);
-    --color-border: var(--color-light-900);
-    --color-overlay: var(--color-light-950);
+    --color-base: var(--color-neutral-100);
+    --color-surface: var(--color-neutral-200);
+    --color-foreground: var(--color-neutral-900);
+    --color-muted: var(--color-neutral-600);
+    --color-border: var(--color-neutral-300);
+    --color-overlay: var(--color-neutral-400);
 
     /* Derived Shades -------------------------------- */
     --color-primary-alt: oklch(from var(--color-primary) calc(l + 0.1) c h);
@@ -26,10 +26,10 @@
 
 .dark {
     /* Neutral --------------------------------------- */
-    --color-base: var(--color-dark-950);
-    --color-surface: var(--color-dark-800);
-    --color-foreground: var(--color-light-50);
-    --color-muted: var(--color-light-950);
-    --color-border: var(--color-dark-300);
-    --color-overlay: var(--color-dark-400);
+    --color-base: var(--color-neutral-900);
+    --color-surface: var(--color-neutral-800);
+    --color-foreground: var(--color-neutral-100);
+    --color-muted: var(--color-neutral-400);
+    --color-border: var(--color-neutral-700);
+    --color-overlay: var(--color-neutral-600);
 }
