@@ -2,14 +2,14 @@
     <div class="min-h-screen flex flex-col dark">
         <!-- Header -->
         <header class="p-4 bg-surface text-foreground">
-            <h1 class="text-2xl font-bold mb-2">🚀 Nuxt Rocket</h1>
+            <h1 class="h1 text-primary mb-2">🚀 Nuxt Rocket</h1>
             <ThemeSwitcher />
         </header>
 
         <!-- Main Content -->
-        <main class="flex-1 p-6 bg-base text-foreground">
+        <main class="flex-1 p-6 bg-base">
             <p
-                _text-justify
+                _text="~ justify"
                 _mb-2
             >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse massa quam,
@@ -24,7 +24,7 @@
                 diam id libero porttitor ornare et at tellus.
             </p>
             <p
-                _text-justify
+                _text="~ justify"
                 _mb-4
             >
                 Duis consectetur odio id ex imperdiet dictum. Mauris metus magna, convallis et risus
@@ -34,18 +34,14 @@
                 metus lectus sed tortor. Vestibulum eu porttitor felis. Morbi posuere fringilla
                 laoreet. Vestibulum condimentum pulvinar mi at rutrum.
             </p>
-            <div class="card-hover my-2">A Card</div>
             <div class="card-hover my-2">
                 <h2
+                    _h2
                     _text-foreground
-                    _font-semibold
                 >
-                    An Area
+                    A Card
                 </h2>
-                <p
-                    _text-muted
-                    _italic
-                >
+                <p _text="~ muted">
                     Integer vitae lectus est. Curabitur hendrerit ac dolor tristique facilisis. Sed
                     malesuada, nisi ut condimentum placerat, eros tortor faucibus lacus, et
                     tristique enim urna eget tellus. Suspendisse consectetur at ex vitae dignissim.

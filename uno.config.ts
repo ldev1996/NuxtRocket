@@ -65,18 +65,40 @@ export default defineConfig({
     },
     shortcuts: [
         {
-            btn: 'px-4 py-2 rounded font-semibold transition-colors duration-300 cursor-pointer disabled:cursor-not-allowed',
-            'btn-outline': 'btn border border-border bg-transparent hover:bg-surface',
-            'btn-ghost': 'btn bg-transparent hover:bg-overlay',
+            btn: `
+                inline-flex items-center justify-center gap-2
+                px-4 py-2 rounded font-semibold
+                transition-colors duration-300
+                cursor-pointer disabled:cursor-not-allowed disabled:opacity-50
+                focus:outline-none focus-visible:ring-2
+                focus-visible:ring-offset-2 focus-visible:ring-offset-base
+            `,
+            'btn-outline':
+                'btn border border-border bg-transparent hover:bg-surface focus-visible:ring-foreground',
+            'btn-ghost': 'btn bg-transparent hover:bg-overlay focus-visible:ring-foreground',
+        },
+        {
             card: 'rounded-2xl shadow p-4 bg-surface border border-border',
             'card-hover': 'card transition-shadow hover:shadow-md hover:shadow-overlay',
+        },
+        {
+            'display-lg': 'text-6xl',
+            'display-md': 'text-5xl',
+            'display-sm': 'text-4xl',
+            h1: 'text-3xl font-bold',
+            h2: 'text-2xl font-semibold',
+            h3: 'text-xl font-semibold',
+            text: 'text-md text-foreground',
         },
         [
             new RegExp(`^btn-(${colorKeys.join('|')})$`),
             ([, c], { theme }: any) => {
                 const color = theme.colors?.[c]
                 if (color?.contrast) {
-                    return `btn bg-${c} hover:bg-${c}-alt text-${color.contrast}`
+                    return `
+                        btn bg-${c} hover:bg-${c}-alt text-${color.contrast}
+                        focus-visible:ring-${c}
+                    `
                 }
                 return 'btn'
             },
